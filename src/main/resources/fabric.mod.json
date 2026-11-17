@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "permadeath",
+  "version": "${version}",
+  "name": "Permadeath 2",
+  "description": "Permadeath 2: muerte definitiva con animación de calavera, cabeza girando y expulsión.",
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.permadeath.PermadeathMod"
+    ],
+    "client": [
+      "com.example.permadeath.client.PermadeathClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
